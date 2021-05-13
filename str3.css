@@ -1,0 +1,152 @@
+body {
+    background-color:  rgb(26, 24, 24);
+    margin: 0%;
+}
+.zagolovok {
+    font-size: 50px;
+    font-family: Montserrat;
+    color: rgb(71, 151, 216);
+    display: flex;
+    padding-top: 10px;
+}
+.text {
+    font-size: 35px;
+    font-family: Montserrat;
+    color: rgb(173, 173, 173);
+    display: flex;
+}
+.content {
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 0px 15px;
+    position: relative;
+}
+footer {
+    background-color: black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: absolute;
+    margin-bottom: 0%;
+    width: 100%;
+}
+.fot {
+    text-align: center;
+    margin: 4px auto;
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+iframe {
+    position: relative;
+    width: 100%;
+}
+.video {
+    height: 800px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.content2 {
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 15px 15px;
+    position: relative;
+}
+@media only screen and (max-width: 1700px ) {
+    .content {
+        max-width: 1200px;
+    }
+    .video {
+        height: 700px;
+    }
+}
+@media only screen and (max-width: 1400px ) {
+    .content {
+        max-width: 1200px;
+    }
+}
+@media only screen and (max-width: 1280px ) {
+    .content {
+        max-width: 900px;
+    }
+    .zagolovok {
+        font-size: 45px;
+    }
+    .video {
+        height: 500px;
+    }
+}
+@media only screen and (max-width: 992px ) {
+    .content {
+        max-width: 750px;
+    }
+    .zagolovok {
+        font-size: 40px;
+    }
+    .text {
+        font-size: 25px;
+    }
+    .text2 {
+        font-size: 25px;
+        margin-right: 5px;
+    }
+    .zagolovok {
+        font-size: 35px;
+    }
+    .video {
+        height: 450px;
+    }
+    footer {
+        padding: 3px;
+    }
+    .fot {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 767px ) {
+    .content {
+        max-width: none;
+        padding: 0% 5%;
+        margin: 0%;
+    }
+    .zagolovok {
+        font-size: 30px;
+    }
+    .text {
+        font-size: 22px;
+        display: block;
+    }
+    .text2 {
+        font-size: 22px;
+        margin-right: 3px;
+    }
+    .fot {
+        font-size: 15px;
+    }
+    .video {
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 320px ) {
+    .content {
+        max-width: none;
+        padding: 0% 5%;
+        margin: 0%;
+    }
+    .zagolovok {
+        font-size: 22px;
+    }
+    .text {
+        font-size: 18px;
+    }
+    .text2 {
+        font-size: 18px;
+        margin-right: 2px;
+    }
+    .fot {
+        font-size: 15px;
+    }
+    .video {
+        height: 170px;
+    }
+}

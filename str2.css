@@ -1,0 +1,92 @@
+body {
+    background-color:  rgb(26, 24, 24);
+    margin: 0%;
+}
+.zagolovok {
+    font-size: 50px;
+    font-family: Montserrat;
+    color: rgb(71, 151, 216);
+    display: flex;
+    padding-top: 10px;
+}
+.text {
+    font-size: 35px;
+    font-family: Montserrat;
+    color: rgb(173, 173, 173);
+    display: flex;
+}
+.content {
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+footer {
+    background-color: black;
+    padding: 8px;
+    margin-top: 20px;
+    position: relative;
+}
+.fot {
+    text-align: center;
+    margin: 4px auto;
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+@media only screen and (max-width: 1400px ) {
+    .content {
+        max-width: 1200px;
+    }
+}
+@media only screen and (max-width: 1280px ) {
+    .content {
+        max-width: 900px;
+    }
+}
+@media only screen and (max-width: 992px ) {
+    .content {
+        max-width: 750px;
+    }
+    .zagolovok {
+        font-size: 40px;
+    }
+    .text {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 767px ) {
+    .content {
+        max-width: none;
+        padding: 0% 5%;
+        margin: 0%;
+    }
+    .zagolovok {
+        font-size: 20px;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .fot {
+        font-size: 15px;
+    }
+    footer {
+        padding: 6px;
+    }
+}
+@media only screen and (max-width: 380px ) {
+    .content {
+        max-width: none;
+        padding: 0% 5%;
+        margin: 0%;
+    }
+    .zagolovok {
+        font-size: 22px;
+    }
+    .text {
+        font-size: 18px;
+    }
+    .fot {
+        font-size: 15px;
+    }
+}
